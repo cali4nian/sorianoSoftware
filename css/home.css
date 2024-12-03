@@ -32,7 +32,12 @@ main section p {
   line-height: 2.7rem;
 }
 
-#calendlyBtn {
+.callMeLink {
+  text-decoration: none;
+  width: fit-content;
+}
+
+#callMeBtn {
   font-size: 2rem;
   color: #000;
   background-color: #feebc8;

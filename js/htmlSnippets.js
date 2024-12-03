@@ -2,7 +2,9 @@ export const homePageContent = `<section>
       <img src="site-images/homePageBanner.png" alt="Ad Banner" />
       <h1 class="text-5xl text-yellow-400 font-bold tracking-normal">Empowering Innovation Through Code</h1>
       <p>Welcome to my corner of the digital world! I’m a passionate software engineer dedicated to transforming ideas into reality. With a focus on clean, efficient code and a keen eye for user experience, I specialize in developing scalable applications that meet the evolving needs of businesses. Whether you’re looking for a robust web application, seamless integrations, or custom software solutions, I bring a collaborative approach to each project, ensuring that your vision is realized with precision and creativity. Let’s build something amazing together!</p>
-      <a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/danielsoriano559/free_consultation'});return false;"><button id="calendlyBtn" type="button">Schedule time with me</button></a>
+      <a href="tel:5597779705"  class="callMeLink">
+        <button id="callMeBtn" type="button">Call Me</button>
+      </a>
     </section>`
 
 export const servicesPageContent = `<section>
